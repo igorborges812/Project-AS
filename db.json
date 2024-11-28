@@ -1,0 +1,11 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Tênis Masculino Nike",
+        "price": 299.99,
+        "description": "Confortável, leve e perfeito para corridas.",
+        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c8882432-8ac2-45a7-bafa-4e2fd9971336/JORDAN+LUKA+3.pngnpm "
+      }
+    ]
+  }
