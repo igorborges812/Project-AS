@@ -1,5 +1,7 @@
 # Gerenciador de Produtos
 
+Status do Projeto - Em desenvolvimento
+
 ## 📖 Descrição do projeto
 
 O **Gerenciador de Produtos** é uma aplicação web desenvolvida em **React** utilizando **Vite** como base. O objetivo é permitir o gerenciamento completo de produtos, incluindo funcionalidades de cadastro, edição, exclusão e visualização detalhada, com integração a uma API simulada por meio do **json-server**.
