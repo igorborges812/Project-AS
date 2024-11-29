@@ -61,24 +61,19 @@ Certifique-se de ter instalado:
 ### Passo a passo
 
 1. Clone o repositório:
-
 git clone https://github.com/igorborgeS812/Project-AS
 
 2. Acesse a pasta do projeto:
 cd gerenciador-de-produtos
 
 3. Instale as dependências:
-
-
 npm install
 
 4. Inicie o servidor da API simulada:
-
-	npx json-server --watch db.json --port 3001
+npx json-server --watch db.json --port 3001
 
 5. Em outro terminal, inicie a aplicação React:
-
-	npm run dev
+npm run dev
 
 Abra o navegador e acesse:
 Aplicação: http://localhost:5173
