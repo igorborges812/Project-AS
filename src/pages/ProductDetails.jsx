@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProductById } from '../services/api';
+import '../styles/ProductDetails.css';
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -15,9 +16,15 @@ const ProductDetails = () => {
   return (
     <main className="product-details">
       <img src={product.image} alt={product.name} />
-      <h2>{product.name}</h2>
-      <p>{product.description}</p>
-      <p>R$ {product.price.toFixed(2)}</p>
+      <div>
+        <h2>{product.name}</h2>
+        <p>{product.description}</p>
+        <p>R$ {product.price.toFixed(2)}</p>
+        <div className="add-to-cart-container">
+          <button>Adicionar ao Carrinho</button>
+          <button className="favorite-button">Favoritar</button>
+        </div>
+      </div>
     </main>
   );
 };
